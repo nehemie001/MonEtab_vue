@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="Styles/style.css" />
+    <title>Document</title>
+  </head>
+  <body style="background-color: rgba(233, 238, 238, 0.459) !important">
+    <section class="sectionLogin">
+      <div class="img">
+        <img src="/img/ada.PNG" alt="">
+      </div>
+      <div class="container">
+        <label style="color: white; font-size: xx-large">Mon Etab</label>
+        <div class="flex">
+          <div class="flex-1">
+            <input
+              type="text"
+              class="inputIdentifiant"
+              placeholder="Identifiant"
+            />
+            <input
+              type="password"
+              name=""
+              id=""
+              class="inputPassword"
+              placeholder="Mot de passe"
+            />
+          </div>
+          <div class="divPassword">
+            <label class="forgetPassword" for="">mot de passe oublié</label>
+          </div>
+          <div class="divButton">
+            <button
+              onclick="loginBtn()"
+              id="loginBtn"
+              class="loginBtn"
+              type="button"
+            >
+              <a class="idLogin" href="http://localhost:5500/dashboard.html">Connexion</a>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
+<script src="app.js"></script>

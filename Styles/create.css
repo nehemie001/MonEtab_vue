@@ -1,0 +1,136 @@
+.flex {
+  /* background-color: rgb(141, 224, 74); */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  width: 900px;
+  /* height: 65vh; */
+  border-radius: 5px;
+  /* margin-top: 15%; */
+  /* padding-left: 10rem; */
+}
+
+.sectionCreate {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0 4px 20px rgb(202, 199, 199);
+  text-align: center;
+  width: 100%;
+  height: 75vh;
+  border-radius: 5px;
+  margin-top: 5%;
+  /* display: flex; */
+  align-items: center;
+  justify-content: center;
+  margin-left: 14rem;
+}
+
+.flexCreate {
+  /* background-color: rgb(164, 74, 224); */
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  width: 5%;
+  margin-top: 5%;
+}
+
+.inputIdentifiantCreate {
+  width: 150%;
+  height: 40px;
+  border-radius: 5px;
+  --tw-space-y-reverse: 0;
+  margin-top: calc(
+    1.5rem
+      /* 8px * calc(1 - var(--tw-space-y-reverse)));
+    margin-bottom: calc(1.5rem /* 8px */ *
+      var(--tw-space-y-reverse)
+  );
+  border-color: transparent;
+  font-size: larger;
+  background-color:rgb(230, 238, 238);
+}
+
+.inputPasswordCreate {
+  width: 150%;
+  height: 40px;
+  border-radius: 5px;
+  --tw-space-y-reverse: 0;
+  margin-top: calc(1.5rem /* 8px */ * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(1.5rem /* 8px */ * var(--tw-space-y-reverse));
+  border-color: transparent;
+  font-size: larger;
+  background-color:rgb(230, 238, 238);
+}
+
+.flex-form {
+  width: 900px;
+}
+
+.flexCreate {
+  width: 50%;
+}
+
+.flex-form-div {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  text-align: center;
+  justify-content: center;
+  width: 750px;
+  border-radius: 5px;
+  margin: 7em;
+  padding: 2.5rem;
+  margin-top: -2.5rem;
+  /* background-color:black */
+}
+
+.flex-form-div2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  /* text-align: center;
+  justify-content: center; */
+  width: 750px;
+  /* border-radius: 5px;
+  margin: 7em;
+  padding: 2.5rem; */
+  margin-top: 2.5rem;
+}
+
+.btnButton { 
+    padding: 0.9rem;
+    margin-left: -4rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.btnCancel {
+    /* margin-left: 5rem;
+    margin-right: 5rem; */
+    height: 40px;
+    width: 150px;
+    background-color:rgb(240, 60, 60);
+    color: white;
+    border-color: transparent;
+    border-radius: 5px;
+    font-size: small;
+}
+
+.btnSave {
+    height: 40px;
+    width: 150px;
+    background-color:rgb(60, 240, 99);
+    color: white;
+    border-color: transparent;
+    border-radius: 5px;
+    font-size: small;
+}

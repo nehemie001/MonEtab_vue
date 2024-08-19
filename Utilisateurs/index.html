@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="Styles/style.css" />
+    <title>Liste Professeur</title>
+  </head>
+  <body>
+    <div>
+      <section>
+        <div
+          class=""
+          style="
+            margin: 1rem !important;
+            width: 175%;
+            display: flex;
+            flex-direction: column;
+            padding: 4rem;
+          "
+        >
+          <div style="display: flex !important; justify-content: space-between">
+            <h1 style="font-size: xx-large !important; margin-left: 5px">
+              Utilisateur
+            </h1>
+            <a
+              id="tab-create-user"
+              href="#"
+              style="
+                margin-block-end: 10px !important;
+                justify-content: center !important;
+                display: flex !important;
+                width: 17%;
+                height: 20px;
+                margin-top: 100px;
+                background-color: rgba(10, 126, 235, 0.459);
+                border-color: transparent;
+                border-radius: 5px;
+                color: white;
+                margin-right: 0.5rem !important;
+                cursor: pointer;
+              "
+            >
+              Nouvel utilisateur
+            </a>
+          </div>
+          <div class="container-table">
+            <table class="table">
+              <thead>
+                <tr>
+                  <th>#</th>
+                  <th>Pseudo</th>
+                  <th>Date de création</th>
+
+                  <th>Action</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td style="width: 25px !important">1</td>
+                  <td>admin</td>
+                  <td>12/12/2024</td>
+                  <td
+                    style="
+                      display: flex;
+                      border-color: transparent;
+                      justify-content: end;
+                      align-items: center;
+                      width: 100%;
+                    "
+                  >
+                    <button
+                      id="updateStudent"
+                      style="
+                        height: 30px;
+                        width: 100px;
+                        justify-content: end;
+                        align-items: center;
+                        display: flex;
+                        border-color: transparent;
+                      "
+                      class="btnModifier"
+                    >
+                      Modifier
+                    </button>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>
+<script src="app.js"></script>
